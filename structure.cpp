@@ -24,15 +24,17 @@ int main(){
 
     cout<<"Structure";
 
-    // struct is optional
+    // writing struct is optional
 
-    struct book b1;
+    struct book b1={ 1,"Nairobi", 2500 };
     // Local Declaration
     book b2;
+    b2.book_id=2;
+    b2.book_name="Tokyo";
+    b2.price=2400;
     // Local Declaration of structure
-    struct book{
-        int book_id;
-        string book_name;
+    struct fruit{
+        string fruit_name;
         float price;
     };
     //
