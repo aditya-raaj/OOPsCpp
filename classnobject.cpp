@@ -38,6 +38,8 @@ class complexity{
 
 };
 
+// Inline declaration
+
 void complexity::sum(int x,int y){
     a=x;b=y;
     cout<<"\na="<<a<<"\nb="<<b;
@@ -56,7 +58,6 @@ int main(){
 
     complexity o2;
     o2.sum(5,7);
-    o2.output();
 
     return 0;
 }
