@@ -24,6 +24,7 @@ using namespace std;
 int main(){
     cout<<"Object Oriented Programming using Structure"<<endl;
     book b1;
+//    b1.id=20;     NOT ACCESIBLE BECAUSE OF PRIVATE ACCESS MODIFIER
     b1.input();
     b1.display();
 
