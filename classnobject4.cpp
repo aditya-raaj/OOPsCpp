@@ -34,7 +34,7 @@ class complexity{
             cout<<"\na="<<a<<"\nb="<<b;
         }
         
-        void sum(int,int);
+        void sum(int,int);// inline declaration
 
 };
 
