@@ -1,5 +1,6 @@
 #include<iostream>
 
+using namespace std;
 // Functions group mei hona chahiye
 struct book{
     // 3 variable
