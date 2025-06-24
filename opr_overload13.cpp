@@ -21,7 +21,7 @@ class Integer{
             i.a=++a;
             return i;
         }
-        Integer operator++(int){       // Pre Increment
+        Integer operator++(int){       // POST Increment
             // the parameter int is used just to differentiate between the two pre increment or post increment
             // there is no need to pass any parameter to the operator function
             Integer i;
