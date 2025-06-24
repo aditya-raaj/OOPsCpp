@@ -44,7 +44,7 @@ int main(){
     c1.set_data(2,3);
     c2.set_data(3,4);
     // c3=c1+c2;        Gives error :  plus ko nahi pata non primitive data types ko add kaise karna hai
-    c3=c1+c2;
+    c3=c1+c2;   // c3=c1.operator+(c2);
     c4=c1.operator+(c2);
 
     c3.show_data();
